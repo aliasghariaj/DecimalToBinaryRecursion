@@ -14,7 +14,6 @@ public class Main {
     static int getBinary(int decimalNumber) {
         if (decimalNumber == 0)
             return 0;
-        else
-            return (decimalNumber % 2 + 10 * getBinary(decimalNumber / 2));
+        return (decimalNumber % 2 + 10 * getBinary(decimalNumber / 2));
     }
 }
